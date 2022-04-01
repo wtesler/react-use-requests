@@ -2,7 +2,7 @@
  * Handles the lifecycle of `superagent` requests.
  * Call `unmount` to interrupt the requests in flight.
  */
-export class Requests {
+export default class Requests {
   requests = [];
 
   add(request) {

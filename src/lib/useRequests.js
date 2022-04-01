@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import {Requests} from "./internal/Requests";
+import {Requests} from "./Requests";
 
 export default function useRequests() {
   const requestsRef = useRef(new Requests());

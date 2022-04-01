@@ -1,2 +1,3 @@
 import useRequests from './useRequests';
-export { useRequests };
+import Requests from './Requests';
+export { useRequests, Requests };
