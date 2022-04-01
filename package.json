@@ -1,0 +1,47 @@
+{
+  "name": "react-use-requests",
+  "version": "1.0.0",
+  "description": "A React hook which provides a `requests` object which may be used to bind the lifecycle of network calls to the lifecycle of the component.",
+  "scripts": {
+    "build": "npm run clean && babel src/lib --out-dir dist --copy-files",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-react": "^7.16.7",
+    "rimraf": "3.0.2"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ],
+    "plugins": []
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
+  "keywords": [
+    "react",
+    "hook",
+    "lifecycle"
+  ],
+  "author": "Will Tesler",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtesler/react-use-requests.git"
+  },
+  "homepage": "https://github.com/wtesler/react-use-requests"
+}
