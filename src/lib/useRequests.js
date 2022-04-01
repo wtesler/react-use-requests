@@ -7,7 +7,7 @@ export default function useRequests() {
   useEffect(() => {
     const requests = requestsRef.current;
     return () => {
-      requests.unmount();
+      requests.abort();
     }
   }, []);
 

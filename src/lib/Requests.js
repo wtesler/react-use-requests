@@ -12,7 +12,7 @@ export default class Requests {
     });
   }
 
-  unmount() {
+  abort() {
     for (const request of this.requests) {
       request.abort();
     }
